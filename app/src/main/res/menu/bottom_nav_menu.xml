@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_selector_home"
+        android:title="@string/title_home"
+        app:iconTint="#FFEB3B"/>
+
+    <item
+        android:id="@+id/navigation_people"
+        android:icon="@drawable/ic_selector_people"
+        android:title="@string/title_people" />
+    <item
+        android:id="@+id/navigation_mykaroke"
+        android:title=""
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/navigation_upnhac"
+        android:icon="@drawable/ic_selector_upnhac"
+        android:title="@string/title_upnhac"/>
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_selector_profile"
+        android:title="@string/title_profile"/>
+
+
+</menu>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:backgroundTintMode="screen"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:layoutMode="opticalBounds"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/logo_app_login" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="bottom|center"
+            android:layoutMode="opticalBounds"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Tài khoản"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/text_input_login"
+                android:ems="10"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Nhập tên đăng nhập"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="#020101" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Mật khẩu"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/text_input_login"
+                android:ems="10"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Nhập mật khẩu"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="#020101" />
+
+            <android.widget.Button
+                android:id="@+id/btnLogin"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/button_login"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="#FFFDFD"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|top"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btnLoginSDT"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/logo_mxh_login"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/logo_phone_login2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btnLoginFacebook"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/logo_mxh_login"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/logo_facebook_login" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btnLoginGoogle"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/logo_mxh_login"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/logo_google_login" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".20"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/backgroundpicture" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.project_karaoke.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_people"
+        android:name="com.project_karaoke.ui.people.PeopleFragment"
+        android:label="@string/title_people"
+        tools:layout="@layout/fragment_people" />
+    <fragment
+        android:id="@+id/navigation_mykaroke"
+        android:name="com.project_karaoke.ui.mykaraoke.MyKaraokeFragment"
+        android:label="@string/title_mykaraoke"
+        tools:layout="@layout/fragment_my_karaoke" />
+    <fragment
+        android:id="@+id/navigation_upnhac"
+        android:name="com.project_karaoke.ui.upnhac.UpNhacFragment"
+        android:label="@string/title_upnhac"
+        tools:layout="@layout/fragment_up_nhac" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.project_karaoke.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
