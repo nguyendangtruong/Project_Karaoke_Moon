@@ -7,7 +7,7 @@
 
 
 ### Hình Ảnh trong ứng dụng
-<img src="images/giaodiengioithieu.png" width="100%" height="100%"> <br /> <br />
+<img src="images/giaodiengioithieu.jpeg" width="100%" height="100%"> <br /> <br />
 
 
 ### Firebase Realtime Database & Firebase Storage
