@@ -5,6 +5,7 @@
 - Video Demo: https://youtu.be/-B1Npa0mAQ0 <br />
 - Link làm việc nhóm Trello: https://trello.com/b/pogKnJr8/nh%C3%B3m-hkt-android-studio-code
 
+###### *Tương thích với các thiết bị sử dụng **Android 5.0**(API 21) đến **Android 9.0**(API 28)
 
 ### Hình Ảnh trong ứng dụng
 <img src="images/giaodiengioithieu.jpeg" width="100%" height="100%"> <br /> <br />
