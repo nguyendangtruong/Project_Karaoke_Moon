@@ -23,6 +23,6 @@
 
 
 #### Thành viên tham gia:
-- Nguyễn Đăng Trường
-- Nguyễn Việt Hoàng
-- Nguyễn Chí Khang
+- Nguyễn Đăng Trường(Trưởng nhóm)  Liên hệ: nguyendangtruong5070@gmail.com
+- Nguyễn Việt Hoàng (Thành Viên)
+- Nguyễn Chí Khang (Thành Viên)
