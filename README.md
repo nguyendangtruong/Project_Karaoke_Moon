@@ -2,7 +2,7 @@
 #### Đề tài xây dựng ứng dụng hát Karaoke trên Android(sử dụng Android Studio)
 
 - Link thiết kế giao diện(sử dụng Figma): https://www.figma.com/community/file/1057529373628705343 <br />
-- Video Demo: https://youtu.be/-B1Npa0mAQ0 <br />
+- Video Demo: https://youtu.be/oShOHrypQhI <br />
 - Link làm việc nhóm Trello: https://trello.com/b/pogKnJr8/nh%C3%B3m-hkt-android-studio-code
 
 ###### *Tương thích với các thiết bị sử dụng **Android 5.0**(API 21) đến **Android 9.0**(API 28)
